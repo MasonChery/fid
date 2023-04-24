@@ -4,13 +4,15 @@ body {
     font-size: 100%;
     line-height: 175%;
     margin: 0 15% 0;
-    background: #d2dc9d url(Images/blackgoose2.png) no-repeat center 100px fixed;
+    background:  #faf2e4 url(images/blackgoose2.png) no-repeat center 100px fixed;
+    
+
   }
   header {
     margin-top: 0;
     padding: 3em 1em 2em 1em;
     text-align: center;
-    background:url(Images/purpledot.png) center top repeat-x;
+    background:url(images/purpledot.png) center top repeat-x;
     background:
     url(Images/purpledot.png) left top repeat-y,
     url(Images/purpledot.png) right top repeat-y,
@@ -85,3 +87,66 @@ body {
     text-align: center;
     font-style: italic;
   }
+
+
+  body {
+    background-color: #faf2e4;
+    margin: 0 10%;
+    font-family: sans-serif;
+    }
+    
+    h1  {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+    color: #399;
+    }
+    
+    h2 { 
+    color: #399;
+    font-size: 1em;
+    
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      text-align: left;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #ffae00;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 5px #999;
+      margin-top: 5px;
+    }
+    
+    button:hover {background-color: #693c00}
+    
+    button:active {
+      background-color: #ffa600;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    .mydiv{
+    text-align: center;
+    }
+    
+    footer{
+    border-top: 1px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+    }
+    
+    footer img{
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+    }
